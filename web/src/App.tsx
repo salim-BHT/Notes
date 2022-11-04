@@ -10,6 +10,7 @@ const App = () => (
   <FatalErrorBoundary page={FatalErrorPage}>
     <RedwoodProvider titleTemplate="%PageTitle | %AppTitle">
       <RedwoodApolloProvider>
+        <h1>Okay</h1>
         <Routes />
       </RedwoodApolloProvider>
     </RedwoodProvider>
